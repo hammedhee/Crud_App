@@ -56,7 +56,7 @@ class _AddstudentState extends State<Addstudent> {
                   Icons.image,
                   color: Colors.black,
                 )),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             Padding(
@@ -77,7 +77,7 @@ class _AddstudentState extends State<Addstudent> {
                       style: const TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                           labelText: 'Name',
-                          labelStyle: TextStyle(color: Colors.amber),
+                          labelStyle: const TextStyle(color: Colors.amber),
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(50))),
                     ),
@@ -96,7 +96,7 @@ class _AddstudentState extends State<Addstudent> {
                       style: const TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                           labelText: 'Age',
-                          labelStyle: TextStyle(color: Colors.amber),
+                          labelStyle: const TextStyle(color: Colors.amber),
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(50))),
                     ),
@@ -115,7 +115,7 @@ class _AddstudentState extends State<Addstudent> {
                       style: const TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                           labelText: 'Class',
-                          labelStyle: TextStyle(color: Colors.amber),
+                          labelStyle: const TextStyle(color: Colors.amber),
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(50))),
                     ),
@@ -134,7 +134,7 @@ class _AddstudentState extends State<Addstudent> {
                       style: const TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                           labelText: 'Address',
-                          labelStyle: TextStyle(color: Colors.amber),
+                          labelStyle: const TextStyle(color: Colors.amber),
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(50))),
                     ),

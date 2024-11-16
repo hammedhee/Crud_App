@@ -8,7 +8,6 @@ Future<void> addStudent(Student value) async {
   final studentDb = await Hive.openBox<Student>('student_db');
   await studentDb.add(value);
   studentListNotifier.value.add(value);
-  log(value.name!);
   studentListNotifier.notifyListeners();
 }
 
