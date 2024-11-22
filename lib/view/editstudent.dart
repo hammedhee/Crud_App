@@ -112,7 +112,7 @@ class _EditStudentState extends State<EditStudent> {
                 controller: _addressController,
                 style: const TextStyle(color: Colors.white),
                 decoration: InputDecoration(
-                  labelText: 'Address',labelStyle: TextStyle(color: Colors.amber),
+                     labelText: 'Address',labelStyle: TextStyle(color: Colors.amber),
                   contentPadding: EdgeInsets.all(10),
                   fillColor: Color.fromARGB(255, 0, 0, 0),
                   filled: true,

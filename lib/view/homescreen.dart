@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.black,
         centerTitle: true,
-        leading: Icon(
+        leading: const Icon(
           Icons.book,
           color: Colors.amber,
         ),
@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 SharedPreferences preferences = await SharedPreferences.getInstance();
 await preferences.clear();
                 Navigator.push(context, MaterialPageRoute(builder: (ctx) {
-                  return Loginpage();
+                  return const Loginpage();
                 }));
               }),
         ],
@@ -81,10 +81,10 @@ await preferences.clear();
               decoration: InputDecoration(
                   fillColor: Colors.white,
                   labelText: 'Search',
-                  labelStyle: TextStyle(
+                  labelStyle: const TextStyle(
                       color: Colors.white, fontStyle: FontStyle.italic),
                   focusColor: Colors.white,
-                  prefixIcon: Icon(
+                  prefixIcon: const Icon(
                     Icons.search,
                     color: Colors.amber,
                   ),
